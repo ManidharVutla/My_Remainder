@@ -6,7 +6,7 @@ where My_Remainder.py is used to set the remainder
 and 
 script.py reminds you the left out work. 
 
-It has TTS to tell you the left out work
+It has TTS(Text to Speech) to tell you the left out work
 
 I placed script.py in the startup menu of windows so that every time you turn on, script.py remainds you 
 
