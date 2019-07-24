@@ -11,7 +11,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 engine.say('Welcome Manidhar Vutla')
 
-with open('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\My_Remainder.txt') as line:
+with open('/My_Remainder.txt') as line:
    for lines in line:
        if (lines==  '\n' or """Save Before Closing	Don't break lines ! Write Continously"""):
           pass
@@ -19,6 +19,6 @@ with open('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\My_Remainder.txt') 
            lines=line
 
 engine.say(lines)
-os.startfile('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\My_Remainder.txt')
+os.startfile('/My_Remainder.txt')
 
 engine.runAndWait()
