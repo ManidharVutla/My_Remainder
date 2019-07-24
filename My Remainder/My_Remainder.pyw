@@ -7,7 +7,7 @@ class My_Remainder:
         self.root=root
         root.title("My Remainder!")
         root.geometry("1000x500")
-        root.wm_iconbitmap('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\logo.ico')
+        root.wm_iconbitmap('/logo.ico')
         root.configure(background="black")
 
 
@@ -29,7 +29,7 @@ class My_Remainder:
 
     def open_nothing(self):
         
-        f=open('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\My_Remainder.txt','w')
+        f=open('/My_Remainder.txt','w')
         f.truncate()
         f.write("No Remainders\t")
         f.close()
@@ -38,7 +38,7 @@ class My_Remainder:
 
     def open_file(self):
         
-        f=open('C:\Users\welcome\Desktop\Ed\Projects\My Remainder\My_Remainder.txt','w')
+        f=open('/My_Remainder.txt','w')
         f.truncate()
         f.write("Save Before Closing\t")
         f.write("Don't break lines ! Write Continously")
